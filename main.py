@@ -6,7 +6,7 @@ import numpy as np
 from ultralytics import YOLO
 
 result = {}
-# Load the YOLOv8 model
+# Load the YOLOv10 model
 model = YOLO("yolov10n.pt")
 
 # Open the video file
